@@ -2,9 +2,12 @@ language: php
 
 php: 
   - 5.4
+  - 5.5
+  
 before_script: 
   - mkdir -p shippable/codecoverage
   - mkdir -p shippable/testresults
+
 
 script:
    - sudo apt-get install php5-xdebug
@@ -16,6 +19,9 @@ script:
   
 notifications:
    email: false
+commit_container: vidyar/php
+   
+   
 
 
       
