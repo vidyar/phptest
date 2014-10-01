@@ -20,7 +20,7 @@ script:
   
 notifications:
    email: false
-commit_container: vidyar/php
+commit_container: vidyar/phptest
    
    
 
